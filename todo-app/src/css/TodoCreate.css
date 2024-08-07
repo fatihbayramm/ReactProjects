@@ -1,0 +1,30 @@
+.create-todo-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.todo-input {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
+}
+
+.create-todo-btn {
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.create-todo-btn:hover {
+  background-color: #ddd;
+  transition: 0.3s all;
+}

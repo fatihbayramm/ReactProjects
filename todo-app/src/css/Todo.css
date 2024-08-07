@@ -1,0 +1,21 @@
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 0px 150px 15px 0px;
+  font-size: 24px;
+}
+
+.editable-todo-input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+  outline: none;
+}
+
+.remove-todo,
+.confirm-todo,
+.edit-todo {
+  cursor: pointer;
+}
