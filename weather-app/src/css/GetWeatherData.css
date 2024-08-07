@@ -1,0 +1,50 @@
+.weather-data-container div p {
+  margin: 0;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.city-name-box .city-name {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+.date-box .date {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(60, 54, 54);
+}
+
+.temperature-box {
+  margin-bottom: 30px;
+}
+
+.temperature-box .temperature {
+  font-size: 38px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.humidity-and-wind-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.humidity-and-wind-box .humidity,
+.wind {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.description-box .description {
+  text-align: center;
+}
+
+.empty-info {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
