@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(58, 57, 57);
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

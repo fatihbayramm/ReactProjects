@@ -1,0 +1,40 @@
+.movie-detail-container {
+  display: flex;
+  margin: 70px 260px;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.movie-image img {
+  width: 600px;
+  height: 800px;
+}
+
+.movie-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+.movie-overview {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(129, 118, 118);
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.movie-release-date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.movie-imdb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #c31919;
+}

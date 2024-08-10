@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.app {
+  background-color: rgb(58, 57, 57);
+}

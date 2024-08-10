@@ -1,0 +1,51 @@
+.navbar {
+  height: 70px;
+  background-color: #1f1b1b;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.logo .logo-router {
+  text-align: none;
+  color: rgb(179, 116, 0);
+  text-decoration: none;
+  font-family: arial;
+  font-size: 40px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.search-icon {
+  font-size: 25px;
+  color: #fff;
+  margin: 0px 10px 0px 0px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  background-color: #1f1b1b;
+  width: 400px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 5px 10px;
+}
