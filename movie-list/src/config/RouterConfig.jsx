@@ -1,8 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import MovieDetail from "../pages/MovieDetail";
-
-// import GetMovie from "../components/GetMovie";
 import MovieList from "../pages/MovieList";
 
 function RouterConfig({ data }) {

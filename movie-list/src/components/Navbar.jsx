@@ -24,7 +24,6 @@ function Navbar({ onSearchResults }) {
         });
 
         onSearchResults(response.data.results);
-        console.log(response.data.results);
       } catch (error) {
         console.error(error);
       }

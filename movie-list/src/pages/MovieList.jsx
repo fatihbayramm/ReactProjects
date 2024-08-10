@@ -7,8 +7,6 @@ const API_KEY = "919192f4f532834ba1941b0d5fc08a56";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 function MovieList({ searchData }) {
-  console.log(searchData);
-
   const navigate = useNavigate();
   const [data, setData] = useState([]);
 
